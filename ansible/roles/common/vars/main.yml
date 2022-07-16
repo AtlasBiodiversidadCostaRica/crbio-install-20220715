@@ -1,0 +1,4 @@
+# common variables across all roles
+packaging: "war"
+
+groupIdPath: "{{groupId | default('au/org/ala')}}"
